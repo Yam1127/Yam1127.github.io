@@ -40,18 +40,15 @@ h2 {
 }
 
 .left {
-    position: absolute;
+    float: left;
     width: 200px;
-    height: 900px;
-    margin: 10px 50px 0 20px;
+    margin: 10px 0 0 20px;
     text-align: center;
 }
 
 .right {
     font-size: 20px;
-    position: relative;
-    float: right;
-    width: 950px;
+    margin-left: 330px;
 }
 
 .box {
