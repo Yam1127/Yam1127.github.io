@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 12px;
+}
+
+button {
+    /* 当我们鼠标经过button 按钮的时候，鼠标变成小手 */
+    cursor: pointer
+}
+
+a {
+    text-decoration: none
+}
+
+a:hover {
+    color: #c81623
+}
+
+body {
+    /* CSS3 抗锯齿形 让文字显示的更加清晰 */
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 15px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666
+}
+
+#yam>img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.left {
+    position: absolute;
+    width: 200px;
+    height: 900px;
+    margin: 10px 50px 0 20px;
+    text-align: center;
+}
+
+.right {
+    font-size: 20px;
+    position: relative;
+    float: right;
+    width: 950px;
+}
+
+.box {
+    position: relative;
+    margin: 100px auto;
+    text-align: center;
+    font-size: 12px;
+    color: #f40;
+}
+
+.box img {
+    width: 110px;
+    margin-top: 5px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    width: 14px;
+    height: 14%;
+    line-height: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* 光标变为小手 */
+    cursor: pointer;
+}
